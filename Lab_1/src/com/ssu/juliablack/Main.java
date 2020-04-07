@@ -1,5 +1,7 @@
-package juliablack;
+package com.ssu.juliablack;
 
+import com.ssu.juliablack.deadlock.Deadlock;
+import com.ssu.juliablack.matrix.MatrixCalculation;
 import com.ssu.juliablack.sortarray.SortArray;
 
 class Main {
@@ -7,7 +9,7 @@ class Main {
     public static void main(String[] args) {
 
         //task 1
-        //new Deadlock();
+        new Deadlock();
 
         //task 2
 //        try {
@@ -17,6 +19,6 @@ class Main {
 //        }
 
         //task 3
-        SortArray.test();
+       // SortArray.test();
     }
 }
